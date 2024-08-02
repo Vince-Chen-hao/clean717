@@ -1,0 +1,33 @@
+# 匹配檔案規則
+[*.{js,jsx,ts,tsx,vue}]
+
+# 程式碼縮排方式
+indent_style = space
+
+# 縮排的空格數
+indent_size = 2
+
+# 定義換行符
+end_of_line = lf
+
+# 是否去處行首行尾的空白字元
+trim_trailing_whitespace = true
+
+# 檔案是否以空白行結尾
+insert_final_newline = true
+
+# 每行程式碼的最大長度
+max_line_length = 100
+[*.{js,jsx,ts,tsx,vue}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{js,jsx,ts,tsx,vue}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 100
